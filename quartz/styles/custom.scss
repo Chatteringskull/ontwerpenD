@@ -1,3 +1,113 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+/* typography */
+body {
+  font-family: "Exo 2", sans-serif;
+  letter-spacing: 0.2px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Signika Negative", sans-serif;
+  font-weight: 600;
+}
+
+code,
+pre {
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.9rem;
+}
+
+/* layout */
+.left.sidebar {
+  width: 260px;
+}
+
+.right.sidebar {
+  width: 300px;
+}
+
+.center {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+/* title */
+.page-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* logo */
+.logo-svg {
+  width: 180px;
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.logo-svg:hover {
+  opacity: 0.8;
+}
+
+/* links */
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* search */
+.search input {
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+/* graph */
+.graph {
+  opacity: 0.9;
+}
+
+/* callouts */
+.callout {
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+/* interaction */
+button,
+.folder-button {
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* images */
+.center img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.hero-image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.sidebar img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+}
+
+.image-caption {
+  font-size: 0.85rem;
+  color: var(--gray);
+  text-align: center;
+  margin-top: 0.3rem;
+}
