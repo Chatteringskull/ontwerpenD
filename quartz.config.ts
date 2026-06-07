@@ -23,26 +23,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#ffffff",       // center — pure white
-          lightgray: "#cdd2e8",   // sidebar — noticeably darker blue-gray
-          gray: "#8890b0",
-          darkgray: "#2e3355",
-          dark: "#141728",
-          secondary: "#5c60e8",
-          tertiary: "#8b8ff5",
-          highlight: "#ececfd",
-          textHighlight: "#c7d2fe88",
+          light:          "#ffffff",  // panel bg — white
+          lightgray:      "#dde1f0",  // outer body bg — blue-gray
+          gray:           "#8890b0",  // muted text
+          darkgray:       "#2e3355",  // body text
+          dark:           "#141728",  // headings
+          secondary:      "#5058d4",  // links — indigo (your color, not d-floe's blue)
+          tertiary:       "#8b8ff5",  // hover
+          highlight:      "#eceeff",  // internal link bg
+          textHighlight:  "#c7d2fe88",
         },
         darkMode: {
-          light: "#1c1f3a",       // center card
-          lightgray: "#0e1022",   // sidebar — clearly darker than center
-          gray: "#5a6090",
-          darkgray: "#c8cdf0",
-          dark: "#eceffe",
-          secondary: "#7c82f5",
-          tertiary: "#a5abfc",
-          highlight: "#252860",
-          textHighlight: "#7c82f588",
+          light:          "#1a1d38",  // panel bg — deep indigo-navy
+          lightgray:      "#0c0e1e",  // outer body bg — darker so panels lift
+          gray:           "#5a6090",  // muted text
+          darkgray:       "#c8cdf0",  // body text
+          dark:           "#eceffe",  // headings
+          secondary:      "#848af7",  // links — lighter indigo for dark bg
+          tertiary:       "#b4b8fc",  // hover — even lighter
+          highlight:      "#232660",  // internal link bg
+          textHighlight:  "#848af788",
         },
       },
     },
@@ -51,7 +51,7 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({ priority: ["frontmatter", "git", "filesystem"] }),
+      Plugin.CreatedModifiedDate({ priority: ["frontmatter", "filesystem"] }),
       Plugin.SyntaxHighlighting({ theme: { light: "github-light", dark: "github-dark" }, keepBackground: false }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),

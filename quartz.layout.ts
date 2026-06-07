@@ -1,7 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
@@ -13,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// Single-page layout
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -25,34 +24,28 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
 
-  // LEFT sidebar — nav + search (matches d-floe)
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
         { Component: Component.ReaderMode() },
       ],
     }),
-
     Component.Explorer(),
   ],
 
-  // RIGHT sidebar — graph + TOC + backlinks (matches d-floe)
+  // TOC first (like d-floe), then graph, then backlinks
   right: [
-    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.Graph(),
     Component.Backlinks(),
   ],
 }
 
-// components for pages that display lists of pages (e.g. tags or folders)
+// List/folder page layout
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
@@ -63,21 +56,14 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-
     Component.Flex({
       components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
+        { Component: Component.Search(), grow: true },
         { Component: Component.Darkmode() },
       ],
     }),
-
     Component.Explorer(),
   ],
 
-  right: [
-    Component.Graph(),
-  ],
+  right: [Component.Graph()],
 }

@@ -8,7 +8,7 @@ title: Pneumatisch LogicSysteem
 
 ---
 
-Ik heb met Oscar besproken hoe ik het pneumatisch systeem kan visualiseren (zie Bijlage 1).
+Ik heb met een docent besproken hoe ik het pneumatisch systeem kan visualiseren .
 
 De conclusie is dat ik zelf een **pneumatische logic gate** kan ontwerpen, maar dat kost veel tijd en is moeilijk op kleine schaal uit te voeren.
 
@@ -25,6 +25,8 @@ De volgende factoren spelen een rol in het handhaven van het evenwicht (zie Bijl
 - Frictie van de o-ring
 - Massa van het gewicht
 - Veerkracht
+![[pneumatisch_logicsysteem-1780856520328.webp]]
+
 
 ---
 
@@ -33,4 +35,4 @@ Referentievideo's voor AND/OR gates: zie [[sealment|Sealment]].
 
 ---
 
-Zie ook: [[../onderzoek/logboek|Logboek]]
+Zie ook: [[logboek|Logboek]]

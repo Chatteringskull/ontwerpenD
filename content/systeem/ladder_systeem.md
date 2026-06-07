@@ -16,4 +16,4 @@ Dit heb ik ook besproken met Oscar — zie [[pneumatisch_logicsysteem|Pneumatisc
 
 ---
 
-Zie ook: [[sealment|Sealment]] · [[../onderzoek/logboek|Logboek]]
+Zie ook: [[sealment|Sealment]] · [[logboek|Logboek]]
