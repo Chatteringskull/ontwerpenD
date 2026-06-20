@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# Ontwerpverslag pneumatisch speelgoed
+# Ontwerpverslag pneumatisch speelgoed 1
 
 Dit verslag documenteert het ontwerp van **PNEUTOY** een pneumatisch speelgoed voor kinderen van 2 tot 4 jaar waarmee zij spelenderwijs kleuren leren combineren.
 
