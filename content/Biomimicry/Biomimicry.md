@@ -4,7 +4,6 @@
 
 > Dit onderdeel werkt de vier stappen van de Biomimicry DesignLens uit voor PNEUTOY: het pneumatische kleurleerspeelgoed voor kinderen van 2-4 jaar. De invulling is gebaseerd op informatie uit [[../Analyse/pve|Programma van Eisen]], [[../Analyse/interview|Interview – Kinderopvang]], [[../Testen/testplan|Testplan]] en [[../systeem/pneumatisch_logicsysteem|Pneumatisch LogicSysteem]].
 
-Website link naar compleet verslag: https://chatteringskull.github.io/ontwerpenD/ 
 
 ---
 
