@@ -60,7 +60,7 @@ Realiseren van het ontwerp en kijken naar de kosten
 - 📄 [[individuele_reflectie]]
 -  **Circo** niet af
 - [[reflectie_product]]
-- **Biomimicry** niet af
+- [[Biomimicry]]
 
 ---
 
