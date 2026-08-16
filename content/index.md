@@ -58,7 +58,7 @@ Realiseren van het ontwerp en kijken naar de kosten
 Realiseren van het ontwerp en kijken naar de kosten
 
 - 📄 [[individuele_reflectie]]
-- [[Circo/Circo|Circo]] — nog niet af
+- [[Circo/Circo|Circo]]
 - [[reflectie_product]]
 - [[Biomimicry]]
 
