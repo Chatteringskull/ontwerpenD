@@ -10,7 +10,7 @@ Dit verslag documenteert het ontwerp van **PNEUTOY** een pneumatisch speelgoed v
 
 PNEUTOY werkt met een **AND-gate**: pas wanneer een kind twee invoerknoppen tegelijk indrukt, komt de uitvoerknop omhoog en verschijnt de mengkleur. Geen stroom, geen software, geen batterijen.
 
-Dit verslag is opgezet als een digitale ontwerpomgeving in plaats van een traditioneel PDF-document. Elke sectie is een eigen pagina die je vrij kunt verkennen. Er zijn een aantal paginas die nog niet zijn uitgewerkt zoals circo en biomimicry. Dit is omdat ik niet genoeg tijd heb gehad om het af te maken.
+Dit verslag is opgezet als een digitale ontwerpomgeving in plaats van een traditioneel PDF-document. Elke sectie is een eigen pagina die je vrij kunt verkennen.
 
 Het project is uitgevoerd als individueel project aan de **Windesheim University of Applied Sciences**, opleiding Product Design.
 
