@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# Ontwerpverslag pneumatisch speelgoed 1
+# Ontwerpverslag pneumatisch speelgoed
 
 Dit verslag documenteert het ontwerp van **PNEUTOY** een pneumatisch speelgoed voor kinderen van 2 tot 4 jaar waarmee zij spelenderwijs kleuren leren combineren.
 
@@ -58,7 +58,7 @@ Realiseren van het ontwerp en kijken naar de kosten
 Realiseren van het ontwerp en kijken naar de kosten
 
 - 📄 [[individuele_reflectie]]
--  **Circo** niet af
+- [[Circo/Circo|Circo]] — nog niet af
 - [[reflectie_product]]
 - [[Biomimicry]]
 
